@@ -2,14 +2,14 @@
 	font-family: "Roboto", sans-serif;
  }
 
- h1, p {
+h1, p {
  	font-family: "Montserrat", sans-serif;
+ 	color: #F3F3E0;
  }
 
  #profile {
  	height: 250px;
  	width: 250px;
-
  	border-radius: 25%;
  }
 
@@ -20,8 +20,14 @@ body {
  	background-size: contain;
  }
 
+.btn {
+	background-color: #3E5879 !important;
+	border-color: #3E5879 !important;
+	color: #F3F3E0 !important;
+}
+
 footer {
-	background-color: black;
+	background-color: #F3F3E0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,7 +48,7 @@ footer {
 
 .fa-brands, .fa-solid {
 	font-size: 25px;
-	color: white;
+	color: #3E5879;
 	margin: 0 10px 0 10px;
 }
 
